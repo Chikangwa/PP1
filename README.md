@@ -122,14 +122,22 @@ Create a truth table for a **2-bit adder** without carry-in. What are the possib
 
 |A<sub>1</sub> |A<sub>0</sub> | B<sub>1</sub>| B<sub>0</sub> |S<sub>1</sub>| S<sub>0</sub>|  C<sub>out</sub> |
 |--------------|--------------|--------------|---------------|-------------|--------------|------------------| 
-| 0            | 0            | 0            | 0               |
-| 0            | 0            | 0            | 1              |
-| 0            | 0            | 1            | 0               |
-| 0            | 0            | 1            | 1               |
-| 0            | 1            | 0            | 0       | 0               |
-| 1            | 0            | 0            | 0       | 1               |
-| 1            | 1            | 0            | 0       | 1               |
-| 1            | 1            | 1            | 1       | 1               |
+| 0            | 0            | 0            | 0             | 0           | 0            | 0                |
+| 0            | 0            | 0            | 1             | 0           | 1            | 0                |
+| 0            | 0            | 1            | 0             | 1           | 0            | 0                |
+| 0            | 0            | 1            | 1             | 1           | 1            | 0                |
+| 0            | 1            | 0            | 0             | 0           | 1            | 0                |
+| 0            | 1            | 0            | 1             | 1           | 0            | 0                | 
+| 0            | 1            | 1            | 0             | 1           | 1            | 0                |
+| 0            | 1            | 1            | 1             | 0           | 0            | 1                | 
+| 1            | 0            | 0            | 0             | 1           | 0            | 0                |
+| 1            | 0            | 0            | 1             | 1           | 1            | 0                |
+| 1            | 0            | 1            | 0             | 0           | 0            | 1                |
+| 1            | 0            | 1            | 1             | 0           | 1            | 1                |
+| 1            | 1            | 0            | 0             | 1           | 1            | 0                |
+| 1            | 1            | 0            | 1             | 0           | 0            | 1                |
+| 1            | 1            | 1            | 0             | 0           | 1            | 1                |
+| 1            | 1            | 1            | 1             | 1           | 0            | 1                |
 ### Task 3: Boolean Equations via Karnaugh Maps
 Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5aa370f36e) to derive Boolean equations for each output bit in your 2-bit adder.
 
@@ -141,11 +149,12 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 <details>
 <summary>The final functions</summary>
 
-Q<sub>0</sub> = .......
+Q<sub>0</sub> = (A0 and not B0)or (not A0 and B0)
 
-Q<sub>1</sub> = .......
+Q<sub>1</sub> = (A1 and not B1)or (not A1 and B1)
 
-C<sub>out</sub> = .......
+C<sub>out</sub> =(A1 AND B1) OR (A1 AND A0 AND B0)
+     OR (B1 AND A0 AND B0)
 
 </details>
 
@@ -162,4 +171,5 @@ A share link to your solution goes here: <a href=".................">Link!</a>
 ---
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
+Ich habe in 100 Minuten gearbeiten und konnte die 4. Aufgabe nicht geschafft, dies liegt in der Tatsache, dass ich viel Zeit genommen habe, die Tabelle auszufüllen.
 
