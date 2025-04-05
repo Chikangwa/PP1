@@ -173,5 +173,5 @@ A share link to your solution goes here: <a href=".................">Link!</a>
 **Remember:** Stop working after 90 minutes and record where you stopped!
 
 
-Ich habe in 100 Minuten gearbeiten und konnte die 4. Aufgabe nicht geschafft, dies liegt in der Tatsache, dass ich viel Zeit genommen habe, die Tabelle auszufüllen.
+Ich habe in 100 Minuten gearbeiten und konnte die 4. Aufgabe nicht schaffen. Dies liegt in der Tatsache, dass ich viel Zeit genommen habe, die Tabelle auszufüllen.
 
